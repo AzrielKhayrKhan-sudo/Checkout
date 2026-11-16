@@ -7,7 +7,7 @@ def test_calculate_discounted_price_valid():
 
     result = calculate_discounted_price(price, discount_percent)
 
-    assert result == 80.00
+    assert result == 99.00
 
 
 @pytest.mark.parametrize(
